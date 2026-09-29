@@ -108,7 +108,7 @@
       background:var(--rose);
       color:var(--burgundy);
       border:1px solid rgba(232,62,130,.14);
-      font-size:12px;
+      font-size:14px;
       font-weight:800;
       letter-spacing:.12em;
       text-transform:uppercase;
@@ -187,18 +187,18 @@
     }
 
     .nav-links a{
-      padding:10px 13px;
+      padding:11px 15px;
       border-radius:999px;
       color:#675d64;
-      font-size:13px;
+      font-size:16px;
       font-weight:700;
       transition:.2s;
     }
 
     .nav-links a:hover,
     .nav-links a.active{
-      background:var(--rose);
-      color:var(--burgundy);
+      background:#f7d1df;
+      color:var(--pink-dark);
     }
 
     .nav-actions{
@@ -512,7 +512,8 @@
     .about-copy > p{
       margin-top:22px;
       color:var(--muted);
-      font-size:16px;
+      font-size:18px;
+      line-height:1.8;
     }
 
     .mini-grid{
@@ -531,12 +532,12 @@
 
     .mini-card b{
       display:block;
-      font:800 13px "Manrope";
+      font:800 16px "Manrope";
       margin-bottom:5px;
     }
 
     .mini-card span{
-      font-size:12px;
+      font-size:14px;
       color:var(--muted);
     }
 
@@ -608,7 +609,8 @@
 
     .edu-intro p{
       color:#d8cdd2;
-      font-size:14px;
+      font-size:16px;
+      line-height:1.75;
     }
 
     .edu-stack{
@@ -633,7 +635,7 @@
     }
 
     .edu-year{
-      font:800 12px "Manrope";
+      font:800 14px "Manrope";
       color:var(--pink);
     }
 
@@ -643,8 +645,9 @@
     }
 
     .edu-card p{
-      font-size:13px;
+      font-size:16px;
       color:var(--muted);
+      line-height:1.7;
     }
 
     .tag-row{
@@ -684,7 +687,7 @@
     }
 
     .skill-card > p{
-      font-size:12px;
+      font-size:15px;
       color:var(--muted);
       margin-bottom:22px;
     }
@@ -697,7 +700,7 @@
       display:flex;
       justify-content:space-between;
       gap:15px;
-      font-size:12px;
+      font-size:15px;
       font-weight:800;
     }
 
@@ -728,10 +731,10 @@
     }
 
     .tool{
-      padding:9px 12px;
+      padding:10px 14px;
       border-radius:999px;
       border:1px solid var(--line);
-      font-size:11px;
+      font-size:14px;
       font-weight:800;
       background:#fff;
     }
@@ -743,10 +746,10 @@
     }
 
     .domain{
-      padding:14px;
+      padding:16px;
       border-radius:15px;
       background:var(--rose);
-      font-size:11px;
+      font-size:14px;
       font-weight:800;
       color:var(--burgundy);
     }
@@ -868,11 +871,11 @@
     }
 
     .project-meta span{
-      padding:5px 8px;
+      padding:6px 10px;
       border-radius:999px;
       background:var(--rose);
       color:var(--burgundy);
-      font-size:9px;
+      font-size:12px;
       font-weight:900;
     }
 
@@ -882,7 +885,8 @@
     }
 
     .project p{
-      font-size:13px;
+      font-size:16px;
+      line-height:1.7;
       color:var(--muted);
     }
 
@@ -895,14 +899,14 @@
     }
 
     .project-foot a{
-      font-size:11px;
+      font-size:14px;
       font-weight:900;
       color:var(--pink);
     }
 
     .project-foot small{
       color:#a09399;
-      font-size:10px;
+      font-size:13px;
       font-weight:700;
     }
 
@@ -938,7 +942,7 @@
     }
 
     .cert-count{
-      font-size:10px;
+      font-size:13px;
       font-weight:900;
       color:var(--pink);
       white-space:nowrap;
@@ -970,17 +974,17 @@
       place-items:center;
       background:var(--rose);
       color:var(--burgundy);
-      font-size:9px;
+      font-size:12px;
       font-weight:900;
     }
 
     .cert b{
-      font-size:12px;
+      font-size:15px;
       display:block;
     }
 
     .cert span{
-      font-size:10px;
+      font-size:14px;
       color:var(--muted);
     }
 
@@ -1031,11 +1035,11 @@
     }
 
     .contact-link strong{
-      font-size:12px;
+      font-size:15px;
     }
 
     .contact-link span{
-      font-size:11px;
+      font-size:14px;
       color:#cfc2c8;
       margin-left:auto;
     }
@@ -1068,7 +1072,7 @@
     }
 
     .field label{
-      font-size:10px;
+      font-size:13px;
       font-weight:900;
       text-transform:uppercase;
       letter-spacing:.08em;
@@ -1081,9 +1085,10 @@
       border:1px solid var(--line);
       background:#fff;
       border-radius:13px;
-      padding:12px 13px;
+      padding:14px 15px;
       outline:none;
       color:var(--ink);
+      font-size:16px;
     }
 
     .field textarea{
@@ -1110,33 +1115,38 @@
       text-align:center;
     }
 
-    /* FOOTER */
+footer{
+  padding:55px 0 60px;
+  background:#651333;
+  color:#fff;
+  margin-top:20px;
+}
 
-    footer{
-      padding:30px 0 45px;
-    }
+.footer{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:25px;
+  color:#f3dbe5;
+  font-size:14px;
+}
 
-    .footer{
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:20px;
-      color:#8c8087;
-      font-size:11px;
-    }
+.footer strong{
+  color:#fff;
+}
 
-    .footer strong{
-      color:var(--ink);
-    }
+.footer-links{
+  display:flex;
+  gap:20px;
+}
 
-    .footer-links{
-      display:flex;
-      gap:15px;
-    }
+.footer-links a{
+  font-size:14px;
+}
 
-    .footer-links a:hover{
-      color:var(--pink);
-    }
+.footer-links a:hover{
+  color:#ff8ab7;
+}
 
     /* MODAL */
 
@@ -1283,7 +1293,7 @@
       }
 
       .hero-copy > p{
-        font-size:15px;
+        font-size:17px;
       }
 
       .hero-photo{
