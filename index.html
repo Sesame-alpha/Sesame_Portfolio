@@ -1009,13 +1009,13 @@
     /* CONTACT */
 
     .contact-shell{
-      background:var(--rose-2);
+      background:v#fff
       color:var(--ink);
-      border-color:rgba(101,19,51,.12);
+      border-color:var(--line)
     }
 
     .contact-shell::before{
-      background:rgba(232,62,130,.10);
+      background:var(--rose);
     }
 
     .contact-grid{
@@ -1049,7 +1049,7 @@
       padding:15px 17px;
       border:1px solid var(--line);
       border-radius:15px;
-      color:var(--ink);
+      color:var(--pink);
       background:rgba(255,255,255,.65);
     }
 
@@ -1068,9 +1068,9 @@
     }
 
     .form{
-      padding:25px;
+      padding:28px;
       border-radius:24px;
-      background:#fff;
+      background:#f8d0df;
       color:var(--ink);
     }
 
@@ -1121,11 +1121,23 @@
       box-shadow:0 0 0 4px rgba(232,62,130,.08);
     }
 
-    .form button{
-      width:100%;
-      margin-top:3px;
-    }
+  .form button{
+  width:100%;
+  margin-top:3px;
+  background:#fff;
+  color:#111;
+  font-size:17px;
+  font-weight:900;
+  padding:15px 22px;
+  border:1px solid rgba(101,19,51,.12);
+  border-radius:999px;
+  transition:.25s;
+}
 
+.form button:hover{
+  background:#fdf5f8;
+  transform:translateY(-2px);
+}
     .form-status{
       font-size:11px;
       color:var(--muted);
