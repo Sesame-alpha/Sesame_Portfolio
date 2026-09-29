@@ -11,20 +11,33 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
 <style>
     :root{
-      --ink:#1b1018;
-      --muted:#756a72;
-      --pink:#e83e82;
-      --pink-dark:#b8245f;
-      --rose:#fff0f6;
-      --rose-2:#ffe2ed;
-      --burgundy:#651333;
-      --white:#fff;
-      --line:rgba(101,19,51,.12);
-      --shadow:0 24px 70px rgba(80,18,48,.10);
-      --shadow-soft:0 12px 35px rgba(80,18,48,.07);
-      --radius:28px;
-      --max:1220px;
-    }
+  --ink:#1b1018;
+  --muted:#756a72;
+
+  /* MAIN PINK — navigation + footer */
+  --pink:#e83e82;
+
+  /* DARKER PINK — container accents/details */
+  --pink-dark:#b8245f;
+
+  /* SOFT PINK — whole page background */
+  --rose:#fce8f0;
+
+  /* LIGHTER PINK — highlights */
+  --rose-2:#ffd6e5;
+
+  /* CAREER DIRECTION PINK */
+  --burgundy:#9d285c;
+
+  --white:#fff;
+  --line:rgba(184,36,95,.16);
+
+  --shadow:0 24px 70px rgba(184,36,95,.10);
+  --shadow-soft:0 12px 35px rgba(184,36,95,.07);
+
+  --radius:28px;
+  --max:1220px;
+}
 
     *{box-sizing:border-box;margin:0;padding:0}
 
@@ -33,7 +46,7 @@
     body{
       font-family:"DM Sans",sans-serif;
       color:var(--ink);
-      background:#fff;
+      background:var(--rose);
       line-height:1.6;
       overflow-x:hidden;
     }
@@ -162,7 +175,7 @@
       display:flex;
       align-items:center;
       justify-content:space-between;
-      background:rgba(255,255,255,.88);
+      background:rgba(232,62,130,.94);
       border:1px solid rgba(101,19,51,.10);
       border-radius:999px;
       backdrop-filter:blur(20px);
@@ -189,7 +202,7 @@
     .nav-links a{
       padding:11px 15px;
       border-radius:999px;
-      color:#675d64;
+      color:#fff;
       font-size:16px;
       font-weight:700;
       transition:.2s;
@@ -197,8 +210,8 @@
 
     .nav-links a:hover,
     .nav-links a.active{
-      background:#f7d1df;
-      color:var(--pink-dark);
+      background:#b8245f;
+      color:#fff;
     }
 
     .nav-actions{
@@ -351,7 +364,7 @@
 
     .btn-secondary{
       background:#fff;
-      color:var(--ink);
+      color:#9d285c;
       border:1px solid var(--line);
     }
 
