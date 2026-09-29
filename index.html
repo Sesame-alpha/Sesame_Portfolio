@@ -184,13 +184,16 @@
 
     .brand{
       font-family:"Manrope";
-      font-weight:800;
-      font-size:19px;
-      letter-spacing:-.04em;
+      font-weight:900;
+      font-size:25px;
+      letter-spacing:-.05em;
+      color:var(--pink-dark);
+      white-space:nowrap;
+      margin-right:25px;
     }
 
     .brand span{
-      color:var(--pink);
+      color:var(--pink-dark);
     }
 
     .nav-links{
@@ -1004,13 +1007,13 @@
     /* CONTACT */
 
     .contact-shell{
-      background:var(--ink);
-      color:#fff;
-      border-color:var(--ink);
+      background:var(--rose-2);
+      color:var(--ink);
+      border-color:rgba(101,19,51,.12);
     }
 
     .contact-shell::before{
-      background:rgba(232,62,130,.13);
+      background:rgba(232,62,130,.10);
     }
 
     .contact-grid{
@@ -1025,9 +1028,10 @@
     }
 
     .contact-copy > p{
-      color:#cfc2c8;
+      color:var(--muted);
       margin-top:20px;
       max-width:520px;
+      font-size:17px;
     }
 
     .contact-links{
@@ -1040,11 +1044,11 @@
       display:flex;
       align-items:center;
       gap:12px;
-      padding:14px 16px;
-      border:1px solid rgba(255,255,255,.10);
+      padding:15px 17px;
+      border:1px solid var(--line);
       border-radius:15px;
-      color:#fff;
-      background:rgba(255,255,255,.035);
+      color:var(--ink);
+      background:rgba(255,255,255,.65);
     }
 
     .contact-link strong{
@@ -1052,8 +1056,8 @@
     }
 
     .contact-link span{
-      font-size:14px;
-      color:#cfc2c8;
+      font-size:12px;
+      color:var(--muted)
       margin-left:auto;
     }
 
@@ -1130,21 +1134,20 @@
 
 footer{
   padding:30px 0 45px;
-  color:#fff;
-  margin-top:20px;
 }
 
 .footer{
   display:flex;
   align-items:center;
   justify-content:space-between;
-  gap:25px;
-  color:#f3dbe5;
-  font-size:14px;
+  gap:20px;
+  color:#000000;
+  font-size:16px;
 }
 
 .footer strong{
-  color:#fff;
+  color:#000000;
+  font-size:16px;
 }
 
 .footer-links{
@@ -1153,11 +1156,13 @@ footer{
 }
 
 .footer-links a{
-  font-size:14px;
+  color:#000000;
+  font-size:16px;
+  font-weight:700;
 }
 
 .footer-links a:hover{
-  color:#ff8ab7;
+  color:var(--pink-dark);
 }
 
     /* MODAL */
