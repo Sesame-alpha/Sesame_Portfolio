@@ -159,26 +159,10 @@
     }
 
     /* NAV */
-.name-typing{
-  display:inline-block;
-  overflow:hidden;
-  white-space:nowrap;
-  width:0;
-  border-right:3px solid var(--pink);
-  animation:
-    typing 2.4s steps(14,end) forwards,
-    blink .7s step-end infinite;
+.hero-copy h1 span {
+    color: var(--pink);
+    position: relative;
 }
-
-@keyframes typing{
-  from{
-    width:0;
-  }
-  to{
-    width:14ch;
-  }
-}
-
 
     .nav-wrap{
       position:fixed;
@@ -1437,9 +1421,7 @@ footer{
   <div class="nav-wrap">
     <nav class="nav" aria-label="Main navigation">
 
-     <a href="#" class="brand">
-  <span class="name-typing">Sesame Dithupa</span>
-</a>
+ <span>Sesame Dithupa</span>
 
       <div class="nav-links">
         <a href="#about">About</a>
